@@ -8,7 +8,6 @@ public class Main {
         for (int i = 0; i < arrFile.length; i++) {
             File imageFile = arrFile[i];
             if (imageFile.getName().endsWith(".jpg")) {
-                String name = imageFile.getName();
                 File jpg = new File(imageFile.getAbsolutePath());
                 File xml = new File(imageFile.getAbsolutePath().replace(".jpg", ".xml"));
 //                System.out.println(jpg.getName());
